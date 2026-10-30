@@ -20,9 +20,13 @@ portfolio-site/
 ├── production-marketing-system.html  前端：Production and Marketing Information System
 ├── minecraft-teacher-guide.html      虛擬空間：Minecraft《新進教師人員指南》
 ├── gather-town-imics.html            虛擬空間：Gather Town《IMICS GATHER SPACE》
+├── zh/                               中文版（檔名與英文版一一對應）
 ├── cv/                               Tina_Chang_CV.html、Tina_Chang_CV.pdf
-└── assets/                           style.css、照片、封面圖、作品圖片、PDF
+├── assets/                           style.css、照片、封面圖、作品圖片、PDF
+└── EDITING.md                        編輯與發布指南（要改哪個檔案、怎麼推上 GitHub）
 ```
+
+每頁右上角的「EN / 中文」按鈕會切換到另一種語言的同一頁。
 
 影片（YouTube）以嵌入方式播放，沒有下載到 repo。
 
@@ -62,7 +66,6 @@ python -m http.server 8000
 
 - `cv/Tina_Chang_CV.html` 和 CV PDF 內的 **Portfolio** 連結目前仍指向 Notion，
   上線後可改成 GitHub Pages 網址。
-- 首頁的「中文作品集」按鈕仍連到 Notion 上的中文版頁面。
 
 ## 修改內容
 
