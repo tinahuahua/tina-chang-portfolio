@@ -62,10 +62,10 @@ python -m http.server 8000
 4. 等 1–2 分鐘，網址會顯示在同一頁，通常是
    `https://<你的帳號>.github.io/portfolio/`。
 
-## 上線後記得更新
+## 履歷
 
-- `cv/Tina_Chang_CV.html` 和 CV PDF 內的 **Portfolio** 連結目前仍指向 Notion，
-  上線後可改成 GitHub Pages 網址。
+履歷只存一份在 `cv/`（HTML 原始檔 + PDF），網站的 `cv.html` 直接引用它們。
+修改與重新輸出 PDF 的方法見 `EDITING.md`。
 
 ## 修改內容
 

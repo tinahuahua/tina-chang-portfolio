@@ -123,8 +123,18 @@ GitHub repo：<https://github.com/tinahuahua/tina-chang-portfolio>
 - 檔名建議用英文小寫加 `-`，不要用中文或空格。
 
 ### 更新履歷
-- 用新版本覆蓋 `cv/Tina_Chang_CV.pdf` 和 `cv/Tina_Chang_CV.html`，**檔名保持一樣**。
-- 建議把履歷裡的「Portfolio」連結改成本網站網址：`https://tinahuahua.github.io/tina-chang-portfolio/`
+- 履歷**只有一份**，就放在 `cv/`：`cv/Tina_Chang_CV.html`（原始檔）和 `cv/Tina_Chang_CV.pdf`（投遞與網站下載用）。不要在別的資料夾另存副本，才不會版本不一致。
+- 修改流程：
+  1. 改 `cv/Tina_Chang_CV.html` 的文字。
+  2. 重新產生 PDF（在 `portfolio-site` 資料夾的終端機執行，會直接覆蓋舊的 PDF）：
+
+     ```bash
+     & "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf="$PWD\cv\Tina_Chang_CV.pdf" "$PWD\cv\Tina_Chang_CV.html"
+     ```
+
+     或用瀏覽器打開 HTML → 列印 → 另存為 PDF（取消勾選「頁首及頁尾」），存回 `cv/Tina_Chang_CV.pdf`。
+  3. 打開 PDF 確認還是一頁，再照第 4 節推上 GitHub。
+- 履歷裡的「Portfolio」連結已經指向本網站：`https://tinahuahua.github.io/tina-chang-portfolio/`
 
 ### 改顏色、字體、版面
 - 檔案：`assets/style.css`
