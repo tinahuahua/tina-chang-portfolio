@@ -98,6 +98,7 @@ main { padding: 8px 0 64px; }
 .entry h3 { font-size: 17px; font-weight: 650; }
 .entry .org { color: var(--muted); font-weight: 500; }
 .entry .date { font-size: 13.5px; color: var(--muted); font-style: italic; margin: 2px 0 6px; }
+.entry .project { font-weight: 600; color: var(--accent); margin: 0 0 4px; }
 .entry ul { margin: 6px 0 0; padding-left: 18px; }
 .entry li { margin-bottom: 4px; }
 
