@@ -148,8 +148,8 @@ GitHub repo：<https://github.com/tinahuahua/tina-chang-portfolio>
 ### 改顏色、字體、版面
 - 檔案：`assets/style.css`
 - 最上方 `:root { … }` 是全站的顏色設定：
-  - `--accent`：主色（按鈕、連結，目前是深藍 `#1f4e79`）
-  - `--gold`：標題旁的金色小條
+  - `--accent`：主色（按鈕、連結，目前是煙燻藕紫 `#735d6a`）
+  - `--gold`：標題旁的小色條（目前是木質棕 `#8b6f5c`）
   - `--text`、`--muted`：文字顏色
   - `--max`：內容最大寬度
 
