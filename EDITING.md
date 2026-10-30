@@ -84,6 +84,15 @@ GitHub repo：<https://github.com/tinahuahua/tina-chang-portfolio>
   </div>
   ```
 
+### 參與專案（Projects）
+- 位置：`<section class="section" id="projects">`（在工作經驗和社團經驗之間）
+- 新增專案時，複製一整個 `<div class="entry"> … </div>`，改成：
+  - `<h3>`：專案名稱，`<span class="org">` 放公司
+  - `<p class="date">`：角色與期間
+  - 一段 `<p>` 專案簡介
+  - `<p class="project">`：小標（例如 Key Responsibilities &amp; Achievements）
+  - `<ul>` 條列，每點開頭用 `<strong>標題：</strong>`
+
 ### 社團經驗
 - 位置：`<section class="section" id="clubs">`，格式與工作經驗相同。
 
